@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>órarend házi</title>
+    <style>
+        td {
+            background-color: orange;
+            width: 2cm;
+            font-size: medium;
+            height: 2cm;
+            color: black;
+            text-align: center;
+        }
+
+        th {
+            background-color: orangered;
+            width: 2cm;
+            height: 2cm;
+            font-size: x-large;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>
+            <h1>
+                Órarend
+            </h1>
+            <h2> <em>2. Csoport (Muskovszky Tamás)</em> </h2>
+        </caption>
+        <tr>
+            <th></th>
+            <th>Hétfő</th>
+            <th colspan="2">Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <td>Ofő.</td>
+            <td rowspan="2">IKT.</td>
+            <td></td>
+            <td>Fizika</td>
+            <td rowspan="2">Matematika</td>
+            <td>Matematika</td>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <td rowspan="2">Töri</td>
+            <td>IKT.</td>
+            <td>Komplex</th>
+            <td>Fizika</td>
+        </tr>
+        <tr>
+            <th>3.</th>
+            <td rowspan="3">Inftáv.</td>
+            <td rowspan="3">Inftáv.</td>
+            <td>Matematika</td>
+            <td>Komplex</td>
+            <td rowspan="2">DK.</td>
+        </tr>
+        <th>4.</th>
+        <td>Angol</td>
+        <td>Irodalom</td>
+        <td>Magyar</td>
+        </tr>
+        <tr>
+            <th>5.</th>
+            <td>Tesi</td>
+            <td>Angol</th>
+            <td rowspan="2">Angol</td>
+            <td>Komplex</td>
+        </tr>
+        <tr>
+            <th>6.</th>
+            <td>Irodalom</td>
+            <td rowspan="2">Prog.</td>
+            <td rowspan="2">Prog.</td>
+            <td rowspan="2">Tesi</td>
+            <td>Töri</td>
+        </tr>
+        <tr>
+            <th>7.</th>
+            <td>Magyar</td>
+            <td>Tesi</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
